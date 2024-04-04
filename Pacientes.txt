@@ -1,0 +1,4 @@
+"Juan Perez,fractura de pierna,C",
+"Maria Ramirez,Dolor de pelo,A",
+"Lorenzo Toledo,chikunguya,E",
+"Carmen Sarmientos,dolores de parto,B"
