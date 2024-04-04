@@ -2,9 +2,9 @@
 import java.util.Comparator;
 
 class Heap {
-    private Paciente[] heap;
+    public Paciente[] heap;
     private int capacidad;
-    private int tamaño;
+    public int tamaño;
     /**
      * Constructs a new heap with the specified capacity.
      *
@@ -99,7 +99,7 @@ class Heap {
      * @param p2 The second patient.
      * @return A negative value if p1 has higher priority than p2, zero if they are equal, and a positive value if p2 has higher priority than p1.
      */
-    private int comparar(Paciente p1, Paciente p2) {
+    public int comparar(Paciente p1, Paciente p2) {
         return p1.prioridad - p2.prioridad;
     }
 }
